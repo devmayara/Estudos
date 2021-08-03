@@ -1,0 +1,8 @@
+@charset "UTF8";
+
+body {
+    background: rgba(0, 0, 0, 0.822);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
