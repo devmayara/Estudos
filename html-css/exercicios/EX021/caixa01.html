@@ -5,9 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelos de Caixas</title>
+    <style>
+
+        body {
+            background-color: lightblue;
+        }
+
+        h1 {
+            background-color: lightgray;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 4px #313131;            
+            
+            height: 100px;
+            width: 300px;
+/* Altura e Largura */     
+       
+            border-width: 10px;
+            border-style: solid;
+            border-color: #ffa07aab;
+/* Shorthands:
+            border: 10px solid #ffa07aab;   */
+
+            padding-top: 40px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+/* Shorthands:
+            padding: 40px 10px 10px 10px; > se os valores forem iguais não precisa repetir */
+
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-bottom: 50px;
+            margin-left: 30px;
+/* Shorthands:
+            margin: 30px 10px 50px 30px; > se os valores forem iguais não precisa repetir */
+
+            outline-width: 3px;
+            outline-style: dashed;
+            outline-color: linen;
+/* Shorthands:
+            outline: 3px dashed linen;  */
+
+        }
+
+        a {
+            border-width: 3px;
+            border-style: solid;
+            border-color: limegreen;
+
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+
+            margin-top: 10px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplos de caixa box-level</h1>
+    
     <p>
         Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>.. Vamos ver como tudo isso funciona.
     </p>
