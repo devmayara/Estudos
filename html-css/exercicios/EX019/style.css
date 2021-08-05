@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id    /   Em CSS é # --- Só se usa uma vez
+    Em HTML é class    /   Em CSS é . "ponto"
+*/
+
+body {
+    background-color: #c5dac8ce;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1#principal {
+    text-align: center;
+    text-shadow: 2px 2px 5px #000000ea;
+    background-color: #179b5d;
+    color: #ffffff;
+}
+
+h1 {
+    color: #179b5d;
+    text-shadow: 2px 2px 2px #00000091;
+}
+
+h2 {
+    color: #228b5a;
+}
+
+.basico {
+    color: #228b5a;
+}
+
+.intermediario {
+    color: #8b8422;
+}
+
+.avancado {
+    color: #8b2222;
+}
+
+.destaque {
+    background-color: #c4c437ad;
+}
+
+p {
+
+    text-indent: 30px;
+}
