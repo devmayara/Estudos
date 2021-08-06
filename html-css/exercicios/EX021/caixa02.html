@@ -30,6 +30,7 @@
         nav {
             background-color: #777676;
             padding: 3px;
+            box-shadow: 2px 2px 5px #00000066;
             text-align: center;
         }
 
@@ -46,8 +47,9 @@
 
         main {
             background-color: #ffffff;
-            padding: 10px;
+            padding: 10px; 
             margin: 10px;
+            border-radius: 10px;
         }
 
         #assunto {
@@ -57,11 +59,17 @@
         article {
             background-color: #d3d3d3;       
             padding: 5px;    
+            border-radius: 10px;
         }
 
         article > h2 {
-            text-shadow: 2px 2px 2px #949494;
+            text-shadow: 2px 2px 3px #00000066;
             text-align: center;
+        }
+
+        article > p {
+            text-align: justify;
+            margin: 15px;
         }
 
         article > aside {
@@ -73,8 +81,21 @@
             background-color: #000000;
             color: #ffffff;
             text-align: center;
+            padding: 3px;
         }
 
+        footer > p {
+            margin: 0px;
+        }
+/*
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+*/
     </style>
 </head>
 <body>
@@ -112,6 +133,7 @@
     <footer>
         <p> &lt Dev Mayara 2021 </p>
     </footer>
-    
+    <div id="bola"></div>
+
 </body>
 </html>
