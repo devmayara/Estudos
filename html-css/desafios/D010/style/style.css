@@ -14,11 +14,16 @@
     --cor2: #3DDC84;
     --cor3: #2FA866;
     --cor4: #1A5C37;
-    --cor5: #355C47;
+    --cor5: #0d2c1a;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue';
-    --fonte-android: 'Android';
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-android: 'Android', 'cursive';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -30,16 +35,33 @@ header {
     background-color: var(--cor4);
 }
 
-head > h1 {
-    color: var(--cor5);
+header > h1 {
+    color: white;
     font-family: var(--fonte-destaque);
 }
 
-main > h1 {
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--cor5);
+}
+
+main {
+    background-color: white;
+}
+
+main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
 }
 
-main > h2 {
+main h2 {
     font-family: var(--fonte-android);
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
 }
