@@ -1,4 +1,6 @@
 # Estudos
 
- Estudos Sobre: HTML / CSS / JS.
+ HTML / CSS / JS / GIT 
+ 
+ 
 
