@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo Sobre o Google Glass</title>
+    <link rel="stylesheet" href="conteudo/style.css">
+    <script>
+        function calc_total() {
+            var qtd = parseInt(document.getElementById('cQtd').value);
+            tot = qtd * 1500;
+            document.getElementById('cTot').value = tot;
+        }
+    </script>
 </head>
 <body>
     <div id="interface">
@@ -15,7 +23,7 @@
             </hgroup>
         </header>    
 
-        <form action="" method="POST" id="fContato">
+        <form action="" method="POST" id="fContato" oninput="calc_total();">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
                     <p>
@@ -93,17 +101,23 @@
             <fieldset id="pedido">
                 <legend>Quero um Google Glass</legend>
                     <p>
+                        <input type="checkbox" name="tPad" id="cPed" checked>
                         <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
-                    <p><label for="cCor">Cor:</label>
+                    <p>
+                        <label for="cCor">Cor:</label>
+                        <input type="color" name="tCor" id="cCor" value="#0000ff">
                     </p>
                     <p>
                         <label for="cQtd">Quantidade:</label>
+                        <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0">
                     </p>
                     <p>
                         <label for="cTot">Preço Total: R$</label>
-                    </p>
+                        <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly>
+                    </p>                   
             </fieldset>
-            [Botao emviar]
+            <br>
+            <input type="submit" name="tEnviar" value="Enviar">
         </form>
     </div>
 </body>
