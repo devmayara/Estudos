@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo Sobre o Google Glass</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="form.css">
 </head>
-<script language="javascript" src="funcoes.js"></script>
 <body>
     <div id="interface">
         <header id="cabecalho">
@@ -18,40 +15,93 @@
             </hgroup>
         </header>    
 
-        <form action="">
+        <form action="" method="POST" id="fContato">
             <fieldset id="usuario">
                 <legend>Identificação do Usuário</legend>
-                    <p>Nome: <input type="text" name="tnome" id="dnome"></p>
-                    <p>Senha: <input type="text" name=""></p>
-                    <p>E-mail:</p>
+                    <p>
+                        <label for="cNome">Nome:</label>
+                        <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo">
+                    </p>
+                    <p>
+                        <label for="cSenha">Senha:</label>
+                        <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos">
+                    </p>
+                    <p>
+                        <label for="cEmail">E-mail:</label>
+                        <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40" placeholder="exmplo@gmail.com">
+                    </p>
                     <fieldset id="sexo">
-                        <legend>Sexo:</legend>
-                            - Masculino
-                            - Feminino
+                        <legend>Sexo</legend>
+                            <input type="radio" name="tSexo" id="cMasc" checked>
+                            <label for="cMasc">Masculino</label>
+                            <br>
+                            <input type="radio" name="tSexo" id="cFam">
+                            <label for="cFam">Feminino</label>
                     </fieldset>
-                    <p>Data de Nascimento:</p>
+                    <p>
+                        <label for="cNasc">Data de Nascimento: <input type="date" name="tNasc" id="cNasc"></label>
+                    </p>
             </fieldset>
 
             <fieldset id="endereco">
                 <legend>Endereço do Usuário</legend>
-                    Logradouro:
-                    Número:
-                    Estado:
-                    Cidade:
+                    <p>
+                        <label for="cRua">Logradouro:</label>
+                        <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav., ...">
+                    </p>
+                    <p>
+                        <label for="cNum">Número: <input type="number" name="tNum" id="cNum" min="0" max="999999"></label>
+                    </p>
+                    <p>
+                        <label for="cEst">Estado: </label>
+                        <select name="tEst" id="cEst">
+                            <optgroup label="Região Suldeste">
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP" selected>São Paulo</option>
+                                <option value="MG">Minas Gerais</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                                <option value="SC">Santa Catarina</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                            </optgroup>
+                    </select>
+                    </p>
+                    <p>
+                        <label for="cCid">Cidade: </label>
+                        <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidade">
+                        <datalist id="cidade">
+                            <option value="Rio de Janeiro"></option>
+                            <option value="Nova Iguaçu"></option>
+                            <option value="Niterói"></option>
+                            <option value="Belford Roxo"></option>
+                        </datalist>
+                    </p>
             </fieldset>
 
             <fieldset id="mensagem">
                 <legend>Mensagem do Usuário</legend>
-                    Grau de Urgência:
-                    Mensagem:
+                    <p>
+                        <label for="cUrg">Grau de Urgência: </label>
+                        Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx
+                    </p>
+                    <p>
+                        <label for="cMsg">Mensagem:</label>
+                        <textarea name="tMdg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+                    </p>
             </fieldset>
 
             <fieldset id="pedido">
                 <legend>Quero um Google Glass</legend>
-                    Gostaria de adquirir um Google Glass quando disponível
-                    Cor:
-                    Quantidade:
-                    Preço Total: R$
+                    <p>
+                        <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                    <p><label for="cCor">Cor:</label>
+                    </p>
+                    <p>
+                        <label for="cQtd">Quantidade:</label>
+                    </p>
+                    <p>
+                        <label for="cTot">Preço Total: R$</label>
+                    </p>
             </fieldset>
             [Botao emviar]
         </form>
