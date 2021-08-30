@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+hgroup {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #1565b4;
+    height: 80px;
+    padding: 40px 4px; 
+}
+
+hgroup > h1 > h2 {
+    margin: 25px;
+}
+
+#interface {
+    background-image: linear-gradient(to bottom, #AFC2F7, #648BF5, #304375);
+    background-attachment: fixed;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+    
+}
+
+legend {
+    color: black;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #00000033;
+    margin: 20px;
+    padding: 8px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+#cEnviar {
+    background-color: dodgerblue;
+    width: 100px;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;   
+}
+
+#cEnviar:hover {
+    background-color: #1565b4;
+}
+
+footer {
+    background-color: #1565b4;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #0004ff;
+}
