@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        $nome = "Jhon";
+        $idade = 25;
+        echo "$nome tem $idade anos!";
+    ?>
+</body>
+</html>
