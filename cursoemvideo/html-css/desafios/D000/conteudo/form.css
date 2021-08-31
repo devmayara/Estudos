@@ -49,7 +49,7 @@ legend {
 
 fieldset {
     border-color: #00000033;
-    margin: 20px;
+    margin: 30px;
     padding: 8px;
 }
 
@@ -65,7 +65,8 @@ fieldset#sexo {
     color: white;
     font-size: 15px;
     cursor: pointer;
-    border-radius: 10px;   
+    border-radius: 10px;
+    margin-left: 40%;
 }
 
 #cEnviar:hover {
