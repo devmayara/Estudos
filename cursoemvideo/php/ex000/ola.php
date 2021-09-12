@@ -1,6 +1,6 @@
 <?php
 
-echo "<h2>Olá, Mundo!</h2>";
+echo "<h2>Olá, Mundo!</h2> </br>";
 
 // comentário em linha  /   #   Ou hashtag
 
@@ -14,7 +14,7 @@ echo "<h2>Olá, Mundo!</h2>";
  * 
  */
 
-// Variaveis / var:
+// Variaveis / var: começa com $.
 
 $idade = 3;         // Inteiro / int, integer
 $sal = 1825.54;     // Real / real, float, double
