@@ -15,21 +15,19 @@
             if ($i < 16) {
                 $tipoVoto = "não vota";
             }
+            elseif (($i >=16 && $i < 18) || ($i > 65)) {
+                $tipoVoto = "o voto é opcional!";
+            }
             else {
-                if (($i >=16 && $i < 18) || ($i > 65)) {
-                    $tipoVoto = "o voto opcional!";
-                }
-                else {
-                    $tipoVoto = "o voto obrigatótio!";
-                }
+                $tipoVoto = "o voto é obrigatótio!";
             }
             echo "Para essa idade, $tipoVoto";
-
 
 /**
  *  && = e
  *  || = ou
  */
+
         ?>
     </div>
 </body>
