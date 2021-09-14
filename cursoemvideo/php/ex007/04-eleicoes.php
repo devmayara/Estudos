@@ -17,6 +17,7 @@
              * and - && - comparação
              * or - || - ou
              * xor
+             * while = enquanto
              */
         ?>
     </div>
