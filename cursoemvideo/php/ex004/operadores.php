@@ -8,9 +8,7 @@
 <body>
     <div>
         <?php
-        
-           
-        
+                
         /**Operadores Relacionais:
          * 
          * Maior            /   $a>$b
@@ -21,6 +19,7 @@
          * Igual            /   $a==$b
          * Idêntico         /   $a===$b
          */
+        
         ?>
     </div>
 </body>
