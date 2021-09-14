@@ -14,8 +14,8 @@
         echo "Valor $c: <input type='number' name='v$c' max='100' min='0' value='0'><br>";
       $c++;
       }
-      ?>
-      <br>
+    ?>
+    <br>
     <input type="submit" value="Enviar" class="botao">
   </form>
 </div>
