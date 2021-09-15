@@ -8,30 +8,19 @@
 <body>
 <div>
   <?php
-    $i = $i;
-    while ($i <= $f) {
+    $c = $i;
+    while ($c <= $f) {
         $v = "num".$i;
         $url = "v".$i;
         $$v = isset($_GET[$url]) ? $_GET[$url] : 0;
-        $i++;
+        $c-=$in;
     }
-    //TESTE:
-    //echo "$num1 $num2 $num3 $num4 $num5";
 
-    $i = 1;
-    while ($i <= 5) {
-        $v = "num".$i;
-        echo "Valor $i : ".$$v."<br/>";
-        $i++;
-    }
-*/
     $c = $i;
-    while ($c <= $f) {
-      echo $c . "</br>" ;
-      $c-=$in;   //$c = $c-2; 
-
-    }
-
+    do {
+      echo "$c - " ;
+      $c-=$in;       
+    } while ($c<=$f);
   ?>
 </div>
 </body>
