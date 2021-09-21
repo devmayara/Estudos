@@ -8,14 +8,17 @@
 <body>
 <div>
   <?php
-    $n = isset($_GET["num"])?$_GET["num"]:1;
-    for ($c=1; $c<=10; $c++) {
-      $r = $n * $c ;
-      echo "$n x $c = $r </br>";
-    }
+      function soma ($a, $b) {
+        $s = $a + $b;
+        echo "<p>A soma vale: $s </p>";
+      }
+
+      soma (3, 4);
+      soma (8, 2);
+      $x = 9;
+      $y = 15;
+      soma ($x, $y);
   ?>
-  <br>
-  <a href="javascript:history.go(-1)">Voltar</a>
 </div>
 </body>
 </html>

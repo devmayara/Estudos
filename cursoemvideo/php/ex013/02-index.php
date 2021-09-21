@@ -8,14 +8,14 @@
 <body>
 <div>
   <form action="02-tabuada.php" method="GET">
-    <select name="num" id="">
+    <select name="num">
       <?php
         for ($c=1; $c<=10; $c++) {
           echo "<option>$c</option>";
         }
       ?>      
-    </select> <br><br>
-    <input type="submit" value="Tabuada" class="botao">
+    </select>
+    <input type="submit" value="Tabuada">
   </form>
 </div>
 </body>

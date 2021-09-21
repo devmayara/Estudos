@@ -20,7 +20,7 @@
                 case 3:
                     $r = sqrt($n);  // $n ^ (0.5)ou(1/2)
             }
-            echo "O resultado da operação solicitada foi $r"; 
+            echo "O resultado da operação solicitada foi $r ."; 
         ?>
         <br>
         <a href="exercicio01.html" class="botao">Voltar</a>

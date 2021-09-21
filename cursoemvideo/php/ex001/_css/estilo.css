@@ -28,10 +28,6 @@ div {
     min-height:300px;
 }
 
-h1 {
-    color: white;
-}
-
 a {
     color: #273747;
     text-decoration: none;
@@ -43,7 +39,22 @@ a:hover {
     text-decoration: underline;
 }
 
+h1 { 
+    font: 20pt Arial; 
+}
+
+h2 { 
+    font: 18pt Arial; 
+}
+
 span.foco {
     font-weight: bold;
     color: #7e050c;
+}
+
+.botao {
+	background-color: #273747;
+	color: white;
+	padding: 8px;
+	box-shadow: 2px 2px 1px #aaaaaa;
 }

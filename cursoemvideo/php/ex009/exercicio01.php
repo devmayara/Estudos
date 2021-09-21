@@ -21,7 +21,8 @@
                 $d = "não pode dirigir";
             }
             echo "Com essa idade você $v e <br/> também $d.";
-        ?>
+        ?> <br>
+        <a href="javascript:history.go(-1)" class="botao">Voltar</a>
     </div>
 </body>
 </html>
