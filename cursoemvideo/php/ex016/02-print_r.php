@@ -13,7 +13,9 @@
       $v[2] = 3;
       //print_r($v);
       $v2 = array (3,7,6,2,1,9);
-      print_r($v2);
+      //print_r($v2);
+      //var_dump($v2);
+      var_export($v2);
     ?>
 </div>
 </body>
