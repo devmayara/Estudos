@@ -20,6 +20,26 @@
        * %f = valor
        * %s = string 
        */
+
+
+
+
+       /**  FUNÇÕES STRING:
+        * 
+        * 1- printf()
+        * 2- print_r()
+        * 3- wordwrap()
+        * 4- str_len()
+        * 5- trim()
+        * 6- itrim()
+        * 7- rtrim()
+        * 8- str_word_count()
+        * 9- explode()
+        *10- str_split()
+        *11- implode()
+        *12- chr()
+        *13- ord()
+        */
     ?>
 </div>
 </body>

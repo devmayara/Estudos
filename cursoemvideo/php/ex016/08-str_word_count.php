@@ -16,7 +16,7 @@
 /**
  * 0 = conta as palavras
  * 1 = vai mostrar o vetor array
- * 2 = mostra em vetor tbm 
+ * 2 = mostra em vetor tbm porem diferente
  */
 
     ?>
