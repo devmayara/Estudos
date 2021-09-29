@@ -11,19 +11,16 @@
       $nome = "Mayara";
       $novo = str_pad($nome,30," ",STR_PAD_RIGHT);
 
-
 /**
  * STR_PAD_RIGHT
  * STR_PAD_CENTER
  * STR_PAD_LEFT
  */
-
  /**
   * blablabla Mayara ******* blablabla!
   * blablabla     Mayara     blablabla!
   * blablabla         Mayara blablabla!
   */
-
     ?>
 </div>
 </body>

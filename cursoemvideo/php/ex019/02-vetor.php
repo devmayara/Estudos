@@ -12,6 +12,7 @@
       $v = array("A", "J", "M", "X", "K");
       print_r($v);
       $v[] = "O";
+      //array_pop($v);
       print_r($v);
     ?>
   </pre>
