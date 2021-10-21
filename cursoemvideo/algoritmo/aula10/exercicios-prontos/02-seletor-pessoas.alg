@@ -1,13 +1,5 @@
 algoritmo "SeletorPessoas"
-// =============================================================
-// Algoritmo para ler Sexo, Idade e Cor de Cabelo de diversas pessoas
-// e ao final, mostrar:
-//     = Total de HOMENS com mais de 18 ANOS e cabelos CASTANHOS.
-//     = Total de MULHERES entre 25 e 30 ANOS e cabelos LOIROS.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    sexo, resp: caractere
    idade, cabelo, TotH18, TotM25: inteiro
