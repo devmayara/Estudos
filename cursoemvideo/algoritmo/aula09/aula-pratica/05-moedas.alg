@@ -9,7 +9,7 @@ inicio
    Enquanto (C <= Q) faca
             Escreva("Qual o valor em R$? ")
             Leia(R)
-            D <- R/2.20
+            D <- R/5.55
             EscrevaL("O valor convertido e US$", D:5:2)
             C <- C + 1
    FimEnquanto

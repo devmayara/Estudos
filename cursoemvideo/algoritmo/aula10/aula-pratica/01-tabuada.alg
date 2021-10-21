@@ -1,10 +1,5 @@
 algoritmo "Tabuada"
-// =============================================================
-// Algoritmo para mostrar a tabuada de um determinado numero.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    Cont, N, R: Inteiro
 inicio

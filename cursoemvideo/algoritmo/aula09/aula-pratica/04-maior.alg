@@ -5,7 +5,7 @@ inicio
    cont <- 1
    S <- 0
    Enquanto (cont <= 5) faca
-      Escreva ("Digite o ", cont, "o. valor : ")
+      Escreva ("Digite o ", cont, "° valor : ")
       Leia (N)
       Se (N > maior) entao
          maior <- N

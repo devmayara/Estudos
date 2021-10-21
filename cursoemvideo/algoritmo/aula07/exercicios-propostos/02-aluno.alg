@@ -1,10 +1,5 @@
 algoritmo "SituacaoAluno"
-// =============================================================
-// Algoritmo para verificar se um aluno esta APROVADO ou REPROVADO
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    nota1, nota2, media: Real
 inicio

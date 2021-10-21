@@ -1,11 +1,5 @@
 algoritmo "Fatorial"
-// =============================================================
-// Algoritmo para calcular o Fatorial de um numero.
-// Ex: 5! = 5 x 4 x 3 x 2 x 1 = 120
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    C, N, F: Inteiro
    R: Caractere

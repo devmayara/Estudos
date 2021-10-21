@@ -1,10 +1,5 @@
 algoritmo "ContaNegativos"
-// =============================================================
-// Algoritmo para contar quantos valores digitados foram negativos.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    N, C, TotN: Inteiro
 inicio

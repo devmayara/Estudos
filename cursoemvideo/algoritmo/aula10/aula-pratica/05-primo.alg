@@ -1,10 +1,5 @@
 algoritmo "NumeroPrimo"
-// =============================================================
-// Algoritmo para verificar se um determinado numero e PRIMO ou nao.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    C, N, ContDiv: Inteiro
 inicio

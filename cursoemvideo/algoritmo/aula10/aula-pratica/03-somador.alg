@@ -1,10 +1,5 @@
 algoritmo "Somador"
-// =============================================================
-// Algoritmo para somar varios valores informados pelo usuario.
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    N, S: Inteiro
    resp: Caractere

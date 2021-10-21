@@ -1,10 +1,5 @@
 algoritmo "CalculoIMC"
-// =============================================================
-// Algoritmo para calcular o Indice de Massa Corporal de uma pessoa
-//
-// AUTOR: Gustavo Guanabara
-// Curso COMPLETO disponivel GRATIS no site www.cursoemvideo.com
-// =============================================================
+
 var
    M, A, IMC: Real
 inicio
