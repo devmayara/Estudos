@@ -7,13 +7,28 @@
     <title>Alinhamento Vertical</title>
     <style>
         #container {
-            height: 500px;
+            background-image: url("img/target001.png");
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 95vh;
+            padding: 10px;
             background-color: purple;
         }
 
         #conteudo {
+            background-image: url("img/target001.png");
+            background-size: 100% 100%;
+
+            position: absolute;
             height: 200px;
+            width: 400px;
             background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);
         }
     </style>
 </head>
@@ -21,7 +36,7 @@
     <section id="container">
         <article id="conteudo">
 
-        </article>t
+        </article>
     </section>
 </body>
 </html>
