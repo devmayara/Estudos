@@ -5,12 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font: normal 20pt Arial;
+      }
+    </style>
   </head>
   <body>
-
     <script>
-      var nome = window.prompt('Qual é seu nome?')
-      document.write(`Seu nome tem ${nome.length} letras`)
+      var nome = window.prompt("Qual é seu nome?");
+      document.write(`Olá, <strong>${nome}!</strong> Seu nome tem ${nome.length} letras.<br/>`);
+      document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()}. <br/>`);
+      document.write(`Seu nome em letras minúsculas é ${nome.toLowerCase()}.`)
+
+      //var nome =
+      // nome.length        --- quantos caracteres a string tem
+      // nome.toUpperCase() --- tudo para 'MAIÚSCULAS'
+      // nome.toLowerCase() --- tudo para 'minúsculas'
+
+
+      /*  NODE:
+      *> n1 = 1545.5
+      *1545.5
+      *> n1
+      *1545.5
+      *> n1.toFixed(2)
+      *'1545.50'
+      *> n1.toFixed(2).replace('.',',')
+      *'1545,50'
+      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+      *'R$ 1.545,50'
+      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+      *'US$ 1.545,50'
+      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+      *'€ 1.545,50'
+      *> 
+      **/
     </script>
   </body>
 </html>
