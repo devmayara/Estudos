@@ -24,7 +24,24 @@
       // nome.toLowerCase() --- tudo para 'minúsculas'
 
 
-      // ORDEM DE PRECEDÊNCIA:
+
+      /*  NODE:
+      *> n1 = 1545.5
+      *1545.5
+      *> n1
+      *1545.5
+      *> n1.toFixed(2)
+      *'1545.50'
+      *> n1.toFixed(2).replace('.',',')
+      *'1545,50'
+      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+      *'R$ 1.545,50'
+      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+      *'US$ 1.545,50'
+      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+      *'€ 1.545,50'
+      *> 
+      *      // ORDEM DE PRECEDÊNCIA:
       //  ()
       //  **
       //  * / %
@@ -90,26 +107,38 @@
         11
         > x
         10
-        > */
+        > 
+        
 
+        // RELACIONAIS:
 
-      /*  NODE:
-      *> n1 = 1545.5
-      *1545.5
-      *> n1
-      *1545.5
-      *> n1.toFixed(2)
-      *'1545.50'
-      *> n1.toFixed(2).replace('.',',')
-      *'1545,50'
-      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
-      *'R$ 1.545,50'
-      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
-      *'US$ 1.545,50'
-      *> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
-      *'€ 1.545,50'
-      *> 
-      **/
+        > 5 > 2
+          true
+          > 7 < 4
+          false
+          > 8 >= 8
+          true
+          > 9 <=7
+          false
+          > 5 == 5
+          true
+          > 4 != 4
+          false
+          > 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        */
+
     </script>
   </body>
 </html>
