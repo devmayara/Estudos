@@ -24,6 +24,75 @@
       // nome.toLowerCase() --- tudo para 'minúsculas'
 
 
+      // ORDEM DE PRECEDÊNCIA:
+      //  ()
+      //  **
+      //  * / %
+      //  + -
+
+      // Ex: 
+      /*> var a = 5 + 3
+      undefined
+      > a
+      8
+      > var b = a % 5
+      undefined
+      > b
+      3
+      > var c = 5 * b ** 2
+      undefined
+      > c
+      45
+      > var d = 10 - a / 2
+      undefined
+      > d
+      6
+      > var e = 6 * 2 / d
+      undefined
+      > e
+      2
+      > var f = b % e + 4 / e
+      undefined
+      > f
+      3
+      > */
+
+      // AUTO - ATRIBUIÇÃO:
+      /*> var n = 3
+        undefined
+        > n = n + 4
+        7
+        > n
+        7
+        > n = n - 5
+        2
+        > n = n * 4
+        8
+        > n = n / 2
+        4
+        > n = n ** 2
+        16
+        > n = n % 5
+        1
+        > */
+
+
+      //INCREMENTO:
+      /*> var x = 10
+        undefined
+        > x
+        10
+        > x++
+        10
+        > x
+        11
+        > x--
+        11
+        > x
+        10
+        > */
+
+
       /*  NODE:
       *> n1 = 1545.5
       *1545.5
