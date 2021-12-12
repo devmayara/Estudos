@@ -17,6 +17,31 @@
   <h1> Iniciando estudos com DOM </h1>
   <p> Aqui vai o resultado </p>
   <p> Aprendendo a usar o <strong> DOM </strong>em JavaScript</p>
-  <div> Clique em mim </div>
+  <div id="msg"> Clique em mim </div>
+
+  <script>
+
+    var p1 = document.getElementsByTagName('p')[0]
+    //document.write('<br> Está escrito assim: ' + p1.innerText)
+
+    //p1.style.color = 'blue'
+
+
+    var corpo = document.body
+    //corpo.style.backgroundColor = 'black'
+
+
+    var d = document.getElementById('msg')
+    //d.style.backgroundColor = 'green'
+
+    //d.innerText = 'Estou aguardando...'
+
+    //document.getElementById('msg').innerText = 'Estou aguardando...'
+
+    var d = document.querySelector('div#msg')
+    //d.style.color = 'yellow'
+
+  </script>
+
 </body>
 </html>
