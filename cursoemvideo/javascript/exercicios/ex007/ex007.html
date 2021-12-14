@@ -5,32 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Somando Números</title>
-  <style>
-    body {
-      font: normal 18pt Arial;
-      text-align: center;
-    }
-    .fundo{
-      background-color: yellow;
-      width: 600px;
-      height: 300px;
-      line-height: 90px;
-      border-radius: 20px;
-    }
-    input {
-      font: normal 18pt Arial;
-      width: 100px;
-      margin-bottom: 23px;
-    }
-    h1 {
-      color: steelblue;
-    }
-    #btn {
-      background-color: rgb(0, 132, 255);
-      color: white;
-      margin-left: 15px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="fundo">
@@ -41,16 +16,6 @@
     <div id="res">Resultado: </div>
   </div>
 
-  <script>
-    function somar(){
-      var tn1 = document.getElementById('txtn1')
-      var tn2 = document.querySelector('input#txtn2')
-      var res = document.getElementById('res')
-      var n1 = Number(tn1.value)
-      var n2 = Number(tn2.value)
-      var s = n1 + n2
-      res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <b>${s}<b>.`
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
