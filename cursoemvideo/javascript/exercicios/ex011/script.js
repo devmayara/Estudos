@@ -10,4 +10,3 @@ if (idade < 16) {
 } 
 
 
-/*video: 13min*/
