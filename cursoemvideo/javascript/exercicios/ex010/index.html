@@ -5,17 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DETRAN</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sistema de Multas</h1>
-
-  Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
-
-  <input type="button" value="Verificar" onclick="calcular()">
-
-  <div id="res">
-
-  </div>
+  <main>
+    <div class="container"><br>
+      <h1>Sistema de Multas</h1>
+      Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h.
+      <br>
+      <input class="button" type="button" value="Verificar"  onclick="calcular()">
+      <div id="res">
+      </div>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>

@@ -1,0 +1,37 @@
+body {
+  font: normal 14pt arial;
+  text-align: center;
+}
+
+main {
+  width: 600px;
+  height: 400px;
+  margin-top: 5%;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 5px #00000033;
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  
+}
+
+h1 {
+  
+}
+
+input {
+  width: 80px;
+  height: 20px;
+}
+
+input.button{
+  font: normal 16pt arial;
+  padding: 5px;
+  margin: 20px;
+  width: 130px;
+  height: 40px;
+  background-color: #27be3b;
+  color: white;
+}
