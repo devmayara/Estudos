@@ -12,6 +12,7 @@
     table {
       width: 500px;
       border-collapse: collapse;
+      position: relative;
     }
     td, th {
       border: 1px solid black;
@@ -23,9 +24,10 @@
       padding: 10px;
       background-color: lightgray;
     }
-    thead, tfoot {
+    thead tr th {
+      position: sticky;
+      top: -1px;
       background-color: gray;
-      color: white;
     }
     tbody tr:nth-child(odd) {     /* 2n-1 / impar*/
       background-color: white;
@@ -35,6 +37,10 @@
     }
     td.num {
       text-align: right;
+    }
+    thead, tfoot {
+      background-color: gray;
+      color: white;
     }
   </style>
 </head>
