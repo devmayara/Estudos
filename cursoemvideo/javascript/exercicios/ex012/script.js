@@ -10,4 +10,3 @@ if (hora < 12) {
   console.log ('Boa noite')
 }
 
-video 19min
