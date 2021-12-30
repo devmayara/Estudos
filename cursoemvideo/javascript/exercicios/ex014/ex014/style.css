@@ -1,6 +1,7 @@
 body {
   background-color: #346aff;
   font: normal 15pt Arial;
+  text-shadow: 1px 1px 3px #0000006b;
 }
 
 header {
@@ -26,4 +27,34 @@ footer {
   color: white;
   text-align: center;
   font-style: italic;
+}
+
+/* responsivo mobile */
+
+@media screen and (max-width: 923px){
+  header, section, footer {
+    padding: 0 2.4em 0 2.4em;
+  }
+}
+
+@media screen and (max-width: 620px){
+  header, section, footer {
+      width: 100%;
+      margin-right: 0;
+      padding: 0 2.4em 0 2.4em;
+  }
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: ''; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
 }
