@@ -23,10 +23,11 @@ div {
   padding: 8px;
 }
 
-footer {
+footer, a {
   color: white;
   text-align: center;
   font-style: italic;
+  text-decoration: none;
 }
 
 /* responsivo mobile */
