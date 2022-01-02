@@ -1,5 +1,5 @@
 body {
-  background-color: #346aff;
+  background-color: #4b7bff;
   font: normal 15pt Arial;
   text-shadow: 1px 1px 1px #0000006b;
 }
@@ -20,7 +20,26 @@ section {
 
 div {
   text-align: center;
-  padding: 8px;
+  padding: 10px;
+}
+
+#button {
+  background-color: #00bb00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #019b01;
+}
+
+img {
+  width: 200px;
+  padding-top: 18px;
 }
 
 footer, a {
