@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 500px;
+  border-collapse: collapse;
+  position: relative;
+}
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: lightgray;
+}
+thead tr th {
+  position: sticky;
+  top: -1px;
+  background-color: gray;
+}
+tbody tr:nth-child(odd) {     /* 2n-1 / impar*/
+  background-color: white;
+}
+tbody tr:nth-child(even) {    /* 2n / par*/
+  background-color: lightgray;
+}
+td.num {
+  text-align: right;
+}
+thead, tfoot {
+  background-color: gray;
+  color: white;
+}
