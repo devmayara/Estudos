@@ -28,10 +28,11 @@ div {
   background-color: #00bb00;
   color: white;
   font-weight: bold;
+  font-size: 12pt;
   border: none;
   border-radius: 50px;
-  padding: 10px;
-  margin: 25px;
+  padding: 15px;
+  margin: 20px;
   cursor: pointer;
 }
 
