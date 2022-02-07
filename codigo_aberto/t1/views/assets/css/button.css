@@ -1,0 +1,57 @@
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 8px 16px;
+    background: #333333;
+    color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    transition-duration: 0.3s;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn:hover {
+    background: #000000;
+}
+
+.btn-green {
+    background: #10ac84;
+}
+
+.btn-green:hover {
+    background: #1dd1a1;
+}
+
+.btn-blue {
+    background: #2e86de;
+}
+
+.btn-blue:hover {
+    background: #54a0ff;
+}
+
+.btn-facebook {
+    background: #3C5D96;
+}
+
+.btn-facebook:hover {
+    background: #4b74b7;
+}
+
+.btn-google {
+    background: #D05C45;
+}
+
+.btn-google:hover {
+    background: #ef6951;
+}

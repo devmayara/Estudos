@@ -1,0 +1,38 @@
+.message {
+    display: block;
+    padding: 10px;
+    border: 2px solid #555555;
+    border-left-width: 32px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.message.success {
+    color: #1dd1a1;
+    border-color: #1dd1a1;
+}
+
+.message.info {
+    color: #2e86de;
+    border-color: #2e86de;
+}
+
+.message.alert {
+    color: #ff9f43;
+    border-color: #ff9f43;
+}
+
+.message.error {
+    color: #ee5253;
+    border-color: #ee5253;
+}
+
+.message a {
+    font-weight: 800;
+    color: inherit;
+}

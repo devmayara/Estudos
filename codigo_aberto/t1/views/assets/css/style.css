@@ -1,0 +1,62 @@
+/**
+ * Color UI: https://flatuicolors.com/palette/ca
+ * Gradient UI: https://uigradients.com/#TheBlueLagoon
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main_content {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #222f3e;
+}
+
+.main_content_box {
+    margin: auto;
+    max-width: 90%;
+}
+
+/*
+ * LOGIN
+ */
+.login {
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/*
+* ERROR
+ */
+.page {
+    color: #ffffff;
+    width: 400px;
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.page p {
+    margin-top: 30px;
+}
+
+.page_user_photo {
+    width: 150px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

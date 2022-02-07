@@ -1,0 +1,91 @@
+.form_social {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form_social a {
+    font-size: 0.8em;
+    flex-basis: 45%;
+}
+
+.form {
+    color: #ffffff;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form .label_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .label_2 label {
+    width: calc(50% - 10px);
+}
+
+.form .field {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 100%;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form input:focus {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form_actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_actions button {
+    order: 1;
+    outline: none;
+}
+
+.form_actions a {
+    color: #888888;
+    font-weight: bold;
+    font-size: 0.875em;
+    text-transform: capitalize;
+}
+
+.form_legend {
+    margin-bottom: 20px;
+    color: #191654;
+}
+
+.form_register_action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #888888;
+    color: #ffffff;
+}
+
+.form_register_action p {
+    font-size: 0.875em;
+}
