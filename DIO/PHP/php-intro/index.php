@@ -1,5 +1,5 @@
 <?php
-    session_start();
+include 'service/serviceMensagemSessao.php';
 ?>
 
 <!DOCTYPE html>
@@ -16,16 +16,14 @@
         <h2 class="text-center font-weight-bold text-primary mt-5">FORMULÁRIO PARA INSCRIÇÃO DE COMPETIDORES</h2>
             <hr>
                     <?php
-                        $mensagemDeSucesso = isset($_SESSION['mensagem-de-sucesso']) ? $_SESSION['mensagem-de-sucesso'] : '';
+                        $mensagemDeSucesso = obterMensagemSucesso();
                         if (!empty($mensagemDeSucesso)) {
                             echo '<div class="alert alert-success mt-5">' . $mensagemDeSucesso . '</div>';
-                            unset($_SESSION['mensagem-de-sucesso']);
                         }
 
-                        $mensagemDeErro = isset($_SESSION['mensagem-de-erro']) ? $_SESSION['mensagem-de-erro'] : '';
+                        $mensagemDeErro = obterMensagemErro();
                         if (!empty($mensagemDeErro)) {
                             echo '<div class="alert alert-danger mt-5">' . $mensagemDeErro . '</div>';
-                            unset($_SESSION['mensagem-de-erro']);
                         }
                     ?>
 
