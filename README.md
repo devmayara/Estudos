@@ -23,4 +23,64 @@ Estudos realizados a partir do Curso em Vídeo e a plataforma DIO (Digital Innov
 
 ## Certificados
 
+HTML/CSS 
+
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div>
+
+
+JavaScript 
+
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div> 
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div>
+
+
+
+Angular 
+
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div> 
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div>
+
+
+
+PHP 
+
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div> 
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div> 
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div> 
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div>
+
+
+
+Git 
+
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div>
+
+
+
+Linux 
+
+<div>
+    <img height="100" src="" style="max-width:30%;"/>
+</div>
+
 
