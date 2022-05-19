@@ -1,5 +1,3 @@
-# Estudos
-
 
 <h1 align="center">Meus Estudos</h1>
 
@@ -23,14 +21,14 @@ Estudos realizados a partir do Curso em Vídeo e a plataforma DIO (Digital Innov
 
 ## Certificados
 
-HTML/CSS 
+# HTML/CSS 
 
 <div>
     <img height="100" src="" style="max-width:30%;"/>
 </div>
 
 
-JavaScript 
+# JavaScript 
 
 <div>
     <img height="100" src="" style="max-width:30%;"/>
@@ -41,7 +39,7 @@ JavaScript
 
 
 
-Angular 
+# Angular 
 
 <div>
     <img height="100" src="" style="max-width:30%;"/>
@@ -52,7 +50,7 @@ Angular
 
 
 
-PHP 
+# PHP 
 
 <div>
     <img height="100" src="" style="max-width:30%;"/>
@@ -69,7 +67,7 @@ PHP
 
 
 
-Git 
+# Git 
 
 <div>
     <img height="100" src="" style="max-width:30%;"/>
@@ -77,7 +75,7 @@ Git
 
 
 
-Linux 
+# Linux 
 
 <div>
     <img height="100" src="" style="max-width:30%;"/>
