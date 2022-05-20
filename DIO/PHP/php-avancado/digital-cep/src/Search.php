@@ -4,11 +4,15 @@ namespace Mayara\DigitalCep;
 
 class Search
 {
-    private $url "https://viacep.com.br/ws/";
+    private $url = "https://viacep.com.br/ws/";
 
-    public function getAddress(string $zipcode): array
+    public function getAddressFromZipcode(string $zipCode): array
     {
-        $zipcode = preg_replace('/[^0-9]/im', '', $zipcode);
+        $zipCode = preg_replace('/[^0-9]/im', '', $zipCode);
+
+        $get = file_get_contents($this->url . $zipCode . "/json");
+
+        return (array) json_decode($get);
 
     }
 }
