@@ -1,0 +1,55 @@
+{
+    "packages": [
+        {
+            "name": "wead/digital-cep",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adrianowead/digital-cep.git",
+                "reference": "63b5624635c0c1e0f2020f672dcfd235dd9834ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/adrianowead/digital-cep/zipball/63b5624635c0c1e0f2020f672dcfd235dd9834ff",
+                "reference": "63b5624635c0c1e0f2020f672dcfd235dd9834ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8"
+            },
+            "time": "2019-09-29T07:38:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "Wead\\DigitalCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adriano Maciel",
+                    "email": "adriano_mail@hotmail.com"
+                }
+            ],
+            "description": "Busca de cep online",
+            "support": {
+                "issues": "https://github.com/adrianowead/digital-cep/issues",
+                "source": "https://github.com/adrianowead/digital-cep/tree/1.0.1"
+            },
+            "install-path": "../wead/digital-cep"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

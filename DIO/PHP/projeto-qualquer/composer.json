@@ -1,0 +1,17 @@
+{
+    "name": "mayara/projeto-qualquer",
+    "autoload": {
+        "psr-4": {
+            "Mayara\\ProjetoQualquer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mayara Silva",
+            "email": "devmayara11@gmail.com"
+        }
+    ],
+    "require": {
+        "wead/digital-cep": "^1.0"
+    }
+}
