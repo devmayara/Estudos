@@ -1,9 +1,9 @@
 @extends('layouts.app')
-@section('title', 'Usuários')
+@section('title', 'Comentários')
 @section('content')
 
 <h1 class="text-2xl font-semibold leading-tigh py-2">
-    Listagem dos usuários 
+    Comentários do usuário: {{ $user->name }}
     <a href="{{ route('users.create') }}" class="bg-blue-900 rounded-full text-white px-4 text-sm">+</a>
 </h1>
 <hr>
@@ -16,39 +16,27 @@
     <thead>
         <tr>
             <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-gray-500">
-                Nome
+                Conteúdo
             </th>
             <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-gray-500">
-                E-mail
+                Visível
             </th>
             <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-gray-500">
                 Editar
             </th>
-            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-gray-500">
-                Detalhes
-            </th>
-            <th class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-gray-500">
-                Comentários (0)
-            </th>
         </tr>
     </thead>
     <tbody>
-        @foreach ($users as $user)
+        @foreach ($comments as $comment)
         <tr>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                {{ $user->name }}
+                {{ $user->body }}
             </td>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                {{ $user->email }}
+                {{ $user->visivel }}
             </td>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                <a href="{{ route('users.edit', $user->id) }}" class="bg-green-200 rounded-full px-6 py-2">Editar</a>
-            </td>
-            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                <a href="{{ route('users.show', $user->id) }}" class="bg-orange-200 rounded-full px-6 py-2">Detalhes</a>
-            </td>
-            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                <a href="{{ route('comments.index', $user->id) }}" class="bg-blue-200 rounded-full px-6 py-2">Anotações (0)</a>
+                <a href="{{ route('comments.edit', $user->id) }}" class="bg-green-200 rounded-full px-6 py-2">Editar</a>
             </td>
         </tr>
         @endforeach
