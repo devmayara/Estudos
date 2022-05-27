@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $users = User::get();
+        $users = User::where('name', 'LIKE', "%{$request->search}%")->get();
 
         return view('users.index', compact('users'));
     }
@@ -56,6 +56,16 @@ class UserController extends Controller
             $data['password'] = bcrypt($request->password);
 
         $user->update($data);
+
+        return redirect()->route('users.index');
+    }
+
+    public function delete($id)
+    {
+        if (!$user = User::find($id))
+            return redirect()->route('users.index');
+
+        $user->delete();
 
         return redirect()->route('users.index');
     }
