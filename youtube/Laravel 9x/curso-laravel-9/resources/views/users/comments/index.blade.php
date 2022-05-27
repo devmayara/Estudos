@@ -4,7 +4,7 @@
 
 <h1 class="text-2xl font-semibold leading-tigh py-2">
     Comentários do usuário: {{ $user->name }}
-    <a href="{{ route('users.create') }}" class="bg-blue-900 rounded-full text-white px-4 text-sm">+</a>
+    <a href="{{ route('comments.create', $user->id) }}" class="bg-blue-900 rounded-full text-white px-4 text-sm">+</a>
 </h1>
 <hr>
 <form action="{{ route('users.index') }}" method="GET" class="py-5">
@@ -30,17 +30,19 @@
         @foreach ($comments as $comment)
         <tr>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                {{ $user->body }}
+                {{ $comment->body }}
             </td>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                {{ $user->visivel }}
+                {{ $comment->visible ? 'SIM' : 'NÃO' }}
             </td>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                <a href="{{ route('comments.edit', $user->id) }}" class="bg-green-200 rounded-full px-6 py-2">Editar</a>
+                <a href="{{ route('comments.edit', ['user' => $user->id, 'id' => $comment->id]) }}" class="bg-green-200 rounded-full px-6 py-2">Editar</a>
             </td>
         </tr>
         @endforeach
     </tbody>
 </table>
+<br>
+<a href="{{ route('users.index') }}">Voltar</a>
 
 @endsection
