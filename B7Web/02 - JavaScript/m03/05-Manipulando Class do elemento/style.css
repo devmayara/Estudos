@@ -1,0 +1,29 @@
+
+body {
+    background-color: #eee;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+}
+#exemplo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #999;
+}
+.verde {
+    background-color: green;
+    color: #eee;
+}
+.vermelho {
+    background-color: red;
+}
+.azul {
+    background-color: blue;
+    color: #eee;
+}
+.preto {
+    background-color: black;
+    color: #eee;
+}
