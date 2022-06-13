@@ -1,0 +1,16 @@
+
+body {
+    background-color: #eee;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+}
+.texto {
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    background-color: #ccc;
+    padding: 20px;
+    border: 2px solid red;
+}
