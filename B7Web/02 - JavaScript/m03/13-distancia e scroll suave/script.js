@@ -14,4 +14,14 @@ function subirTela() {
     });
 }                               // Função para subir a página
 
+function button() {
+    if(window.scrollY === 0) {
+        // ocultar o botão
+        document.querySelector('.scrolbutton').style.display = 'none';
+    } else {
+        // mostrar o botão
+        document.querySelector('.scrolbutton').style.display = 'block';
+    }
+}
 
+window.addEventListener('scroll', button); // Função para mostrar ou ocultar o botão de subir a página
