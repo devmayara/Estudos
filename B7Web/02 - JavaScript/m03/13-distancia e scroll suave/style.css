@@ -1,0 +1,27 @@
+
+body {
+    background-color: #eee;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+}
+.texto {
+    width: 200px;
+    height: 1000px;
+    overflow: auto;
+    background-color: #ccc;
+    padding: 20px;
+    border: 2px solid red;
+}
+.scrolbutton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
