@@ -31,9 +31,13 @@ let list2 = [];
 //     list2.push(list[i] * 2);
 // }
 
-list2 = list.filter(function(item) {
-    return (item < 20)? true : false;
-}); // retorna um novo array com os itens do array original que são menores que 20  // every: retorna true se todos os itens da lista forem verdadeiros
+// list2 = list.filter(function(item) {
+//     return (item < 20)? true : false;
+// }); // retorna um novo array com os itens do array original que são menores que 20  // every: retorna true se todos os itens da lista forem verdadeiros
+
+list2 = list.find(function(item) {
+    return (item == 16) ? true : false;
+}); // retorna o primeiro item da lista que satisfaça a condição    // findIndex: retorna o índice do primeiro item que satisfaça a condição
 
 let result = list2;
 
