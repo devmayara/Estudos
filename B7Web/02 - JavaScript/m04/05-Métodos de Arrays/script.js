@@ -14,7 +14,12 @@ let list = ['ovo', 'banana', 'abacaxi'];
 
 //list.unshift('uva'); // adiciona um item no início da lista
 
-list[0] = 'Ovos'; // substitui o primeiro item da lista
+//list[0] = 'Ovos'; // substitui o primeiro item da lista
+
+//list.splice(1, 1);  // remove um item da lista
+
+list.sort(); // ordena a lista
+//list.reverse(); // inverte a ordem da lista
 
 let result = list;
 
