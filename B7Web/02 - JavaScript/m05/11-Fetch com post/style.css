@@ -1,0 +1,8 @@
+
+body {
+    background-color: #eee;
+}
+input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+}
