@@ -1,0 +1,60 @@
+		GIT
+
+Criar pasta:
+	mkdir "nome da pasta"
+
+Criar repositório:
+	git init
+
+Atualizar o diretório raiz:
+	git pull origin develop
+
+Status da pasta:
+	git status
+
+Add novos arquivos:
+	git add "nome do arquivo" "nome do arquivo" "nome do arquivo"
+	git add -A
+	git add .
+
+Commitar:
+	git commit -m "MENSAGEM"
+
+Ver commites:
+	git log
+
+Subir os arquivos commitados:
+	git push -u origin "NOME DA BRANCH"
+
+Branch:
+	git branch
+
+Criar branch:
+	git branch "NomeDaBranch" 
+
+Mudar de branch:
+	git checkout "NomeDaBranch"
+
+Excluir branch:
+	git branch -D "NomeDaBranch"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
