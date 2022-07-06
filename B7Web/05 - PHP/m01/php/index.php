@@ -40,3 +40,23 @@ $numerosDaMegaSena = [10, 14, 27, 34, 8, 43];
 // echo "Número 5: " . $numerosDaMegaSena[4] . "<br>";
 // echo "Número 6: " . $numerosDaMegaSena[5] . "<br>";
 ?>
+
+
+<?php
+// Operador Array Spread (7.4)
+$bolo1 = [
+    'açucar', 
+    'farinha', 
+    'ovo', 
+    'leite',
+    'fermento'
+];
+
+$bolo2 = [
+    'manteiga',
+    ...$bolo1,
+    'chocolate'
+];
+
+echo $bolo2[6];
+?>
