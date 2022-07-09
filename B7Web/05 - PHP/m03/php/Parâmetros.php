@@ -34,14 +34,15 @@ echo $w;
 <?php
 // Referência ou Valor
 
-function somar2($n1, $n2) {
+function somar2($n1, $n2, &$total) {    // & é o símbolo de referência
     $total = $n1 + $n2;
     return $total;
 }
 
 $x = 30;
 $y = 40;
-$soma = somar2($x, $y);
+$total = 0;
+somar2($x, $y, $soma);
 
 echo "Total: " . $soma;
 ?>
