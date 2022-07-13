@@ -104,22 +104,28 @@ print_r($reprovados);
 //array_filter(); // Retorna um array com os elementos filtrados
 //array_map(); // Retorna um array com os elementos transformados
 
+
+// array_pop(); // Remove o último elemento de um array
+// in_array(); // Retorna true se o elemento está no array
+// array_search(); // Retorna a posição de um elemento no array
+// sort(); // Ordena um array
+// rsort(); // Ordena um array em ordem decrescente
+// arsort(); // Ordena um array em ordem decrescente, mantendo a associação de chaves
+// explode(); // Divide uma string em um array
+// implode(); // Junta um array em uma string
+
 ?>
 
 <hr><br>
 
 <?php
-//
+//  Nativas de Data/Hora
 
+//echo date("d F Y H:i:s a");  Retorna o timestamp atual
 
-?>
+$date = '2022/07/13';
+$time = strtotime($date);
 
-<hr><br>
-
-<?php
-//
-
+echo date("d F Y", $time);
 
 ?>
-
-<hr><br>
