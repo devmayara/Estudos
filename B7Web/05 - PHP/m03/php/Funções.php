@@ -82,8 +82,27 @@ ucwords("teste"); // Converte a primeira letra de cada palavra para maiúscula
 <hr><br>
 
 <?php
-//
+// Nativas de Array 
 
+$lista = [
+    'mayara',
+    'joão',
+    'maria',
+    'josé',
+    'joana'
+];
+$aprovados = [
+    'mayara',
+    'joão'
+];
+
+$reprovados = array_diff($lista, $aprovados);
+
+print_r($reprovados);
+
+//array_diff(); // Retorna um array com os elementos que não estão em ambos os arrays
+//array_filter(); // Retorna um array com os elementos filtrados
+//array_map(); // Retorna um array com os elementos transformados
 
 ?>
 
