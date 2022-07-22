@@ -1,10 +1,10 @@
 <?php
 
 // definindo a classe   /// criando
-class Post {    // public, private, protected
-    public $likes = 0;
-    public $comments = [];
-    public $author;
+class Post {    // typando a classe
+    public int $likes = 0;
+    public array $comments = [];
+    public string $author;
 
     public function aumentarLikes() {
         $this->likes++;
@@ -21,10 +21,3 @@ $post2->aumentarLikes();
 
 echo "Post 1 tem " . $post1->likes . " likes <br>";
 echo "<hr>Post 2 tem " . $post2->likes . " likes <br>";
-
-
-/**
-* Definindo Métodos e Propriedades
-*/
-
-// sao as carecteristicas que um objeto possui
