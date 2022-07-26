@@ -24,7 +24,7 @@ Estudos realizados a partir do Curso em Vídeo e a plataforma DIO (Digital Innov
 # HTML/CSS 
 
 <div>
-    <img height="100" src="" style="max-width:30%;"/>
+    <img height="100" src="https://github.com/devmayara/Estudos/blob/main/B7Web/Certificados/HTML5_CSS3_certificado_7664070.jpg?raw=true" style="max-width:30%;"/>
     <img height="100" src="https://user-images.githubusercontent.com/87142746/169388763-a1463075-b3b8-4123-83da-6bb13650e33f.png" style="max-width:30%;"/>
 </div>
 
@@ -33,7 +33,7 @@ Estudos realizados a partir do Curso em Vídeo e a plataforma DIO (Digital Innov
 # JavaScript 
 
 <div>
-  <img height="100" src="" style="max-width:30%;"/>
+  <img height="100" src="https://github.com/devmayara/Estudos/blob/main/B7Web/Certificados/JavaScript_certificado_6007634.jpg?raw=true" style="max-width:30%;"/>
   <img height="100" src="https://user-images.githubusercontent.com/87142746/169388915-160b2b24-08ed-4634-9efe-8d1010f8b107.png" style="max-width:30%;"/>
   <img height="100" src="https://user-images.githubusercontent.com/87142746/169388854-93a57ff4-68bf-466b-b68a-5b57d5eca17c.png" style="max-width:30%;"/>
 </div>
@@ -53,7 +53,7 @@ Estudos realizados a partir do Curso em Vídeo e a plataforma DIO (Digital Innov
 # Banco de Dados 
 
 <div>
-  <img height="100" src="" style="max-width:30%;"/>
+  <img height="100" src="https://github.com/devmayara/Estudos/blob/main/B7Web/Certificados/Banco_de_Dados_certificado_6994405.jpg?raw=true" style="max-width:30%;"/>
 </div>
 
 
@@ -73,7 +73,7 @@ Estudos realizados a partir do Curso em Vídeo e a plataforma DIO (Digital Innov
 # Git 
 
 <div>
-  <img height="100" src="" style="max-width:30%;"/>
+  <img height="100" src="https://github.com/devmayara/Estudos/blob/main/B7Web/Certificados/Git_GitHub_certificado_1976780.jpg?raw=true" style="max-width:30%;"/>
   <img height="100" src="https://user-images.githubusercontent.com/87142746/169388193-d7312be5-130e-4a1f-80ef-38d10bbf30a4.png" style="max-width:30%;"/>
 </div>
 
