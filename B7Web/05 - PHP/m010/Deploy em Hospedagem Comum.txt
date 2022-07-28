@@ -1,0 +1,7 @@
+Passos necessários:
+
+- Criar banco de dados na HOSPEDAGEM
+- Exportar banco local para o arquivo SQL
+- Importar banco local para o banco da HOSPEDAGEM
+- Enviar os arquivos (zip)
+- Corrigir as informaçoes de conexão do banco de dados
